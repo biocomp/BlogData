@@ -1,0 +1,14 @@
+{
+  "system": {
+    "task-scheduler": {
+       "task": {
+         "update-dyndns": {
+           "crontab-spec": "*/10 * * * *",
+           "executable": {
+             "path": "/config/scripts/update-dyndns.sh"
+           }
+         }
+       }
+     }
+   }
+}
